@@ -10,6 +10,11 @@ sections:
   create: all
   match: "*"
 - type: directory
+  path: exampleSite/content/about
+  label: about
+  create: all
+  match: "**/*"
+- type: directory
   path: exampleSite/content/billing-pricing
   label: Billing pricing
   create: all
